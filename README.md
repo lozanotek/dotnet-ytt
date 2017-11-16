@@ -1,5 +1,5 @@
-# The Old and New .NET
-Ths repository contains the source and slides for the **The Old and New .NET** presentation.
+# .NET Development Yesterday, Today and Tomorrow (YTT)
+Ths repository contains the source and slides for the **.NET Development Yesterday, Today and Tomorrow** presentation.
 
 The purpose of this presentation is to show:
 * New .NET Tooling (Visual Studio Windows, Visual Studio Mac, .NET CLI)
