@@ -1,3 +1,4 @@
+![alt text](http://lozanotek.com/images/logo.gif "Created by Lozanotek, Inc.") 
 # .NET Development Yesterday, Today and Tomorrow (YTT)
 Ths repository contains the source and slides for the **.NET Development Yesterday, Today and Tomorrow** presentation.
 
