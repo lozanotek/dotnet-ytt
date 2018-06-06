@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 
+using Northwind.Data;
+
 namespace Northwind
 {
     public partial class MainForm : Form
@@ -12,7 +14,8 @@ namespace Northwind
 
         private void loadButton_Click(object sender, EventArgs e)
         {
-            textBox.Text = NorthwindDb.GetData();
+            var path = @"northwind.xml";
+            textBox.Text = NorthwindDb.GetData(path);
         }
     }
 }
