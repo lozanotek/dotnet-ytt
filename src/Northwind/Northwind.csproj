@@ -89,10 +89,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Northwind.Data\Northwind.Data.csproj">
-      <Project>{73169f56-d2ac-4400-92ad-0b48f094a7f8}</Project>
-      <Name>Northwind.Data</Name>
-    </ProjectReference>
+    <PackageReference Include="Northwind.Data">
+      <Version>1.0.0</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
