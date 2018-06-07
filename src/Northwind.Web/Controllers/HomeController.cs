@@ -22,6 +22,7 @@ namespace Northwind.Web.Controllers
             var folderPath = Path.Combine(path, "Database");
             var filePath = Path.Combine(folderPath, "northwind.xml");
 
+            //var data = new[] { "Foo", "Bar" };
             var data = NorthwindDb.GetRetiredEmployees(filePath);
             return View("index", data);
         }
