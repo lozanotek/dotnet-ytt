@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Lozanotek, Inc.</Company>
+    <Authors>jglozano</Authors>
+    <Version>1.1.0</Version>
+    <Description>Demo package for the .NET Development Yesterday, Today and Tomorrow presentation.</Description>
   </PropertyGroup>
 
   <ItemGroup>
