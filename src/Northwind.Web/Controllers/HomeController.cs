@@ -8,9 +8,9 @@ namespace Northwind.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IHostingEnvironment hostingEnvironment;
+        private readonly IWebHostEnvironment hostingEnvironment;
 
-        public HomeController(IHostingEnvironment env)
+        public HomeController(IWebHostEnvironment env)
         {
             hostingEnvironment = env;
         }
